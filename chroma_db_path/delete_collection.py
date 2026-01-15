@@ -19,3 +19,5 @@ chroma_client.delete_collection(
 
 # 삭제 완료 메시지 출력
 print(f"컬렉션 '{collection_name}' 삭제 완료")
+
+pass
