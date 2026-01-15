@@ -2,6 +2,11 @@ __pycache__/
 *.pyc
 
 models/
-chroma_db_path/
+
+# chroma DB 실제 데이터는 제외
+chroma_db_path/**
+
+# 하지만 파이썬 코드 파일은 포함
+!chroma_db_path/*.py
 
 .env
