@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+
+models/
+chroma_db_path/
+
+.env

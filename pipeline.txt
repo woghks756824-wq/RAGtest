@@ -1,0 +1,21 @@
+text_splitter.py: 긴 텍스트를 문단(chunk) 단위로 나누는 역할
+	|
+pdf_loader.py: PDF → 텍스트 추출
+	|
+pdf_to_chroma.py: 핵심 파일 – PDF를 벡터 DB에 저장
+	|
+create_collection_klue.py: klue-roberta 전용 컬렉션 생성
+	|
+delete_collection.py: 컬렉션 삭제
+	|
+query_chroma.py: 벡터 DB 검색 테스트
+	|
+pdf_query.py: PDF 기반 검색 전용 스크립트
+	|
+rag_query.py: Chroma에서 관련 문단 검색
+
+		   검색 결과를 Context로 묶기
+
+		   Ollama(GGUF 모델)에 질문
+
+		   근거 기반 답변 생성
